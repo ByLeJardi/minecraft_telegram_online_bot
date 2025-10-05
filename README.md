@@ -23,15 +23,52 @@ Sunucu tekrar açıldığında, önceki kapanma bildirimini siler ve 30 saniye s
 
 🔹 Kolay Yönetim: Tüm ayarlar (config.json) ve botun mesajları (messages.json) ayrı dosyalarda tutulduğu için, gelecekte bot üzerinde değişiklik yapmak son derece kolaydır.
 
-# Nasıl Kurulur? (Kısa Rehber)
-Botu çalıştırmak için aşağıdaki adımları izlemeniz yeterlidir:
+Botu sıfırdan kurup çalıştırmak için aşağıdaki adımları dikkatlice takip edin.
 
-Python Yükleyin: Bilgisayarınızda Python'un son sürümünün kurulu olduğundan emin olun.
+1. Gerekli Programların Kurulumu
 
-Kütüphaneleri İndirin: Komut satırına pip install "python-telegram-bot[job-queue]" mcstatus yazarak gerekli kütüphaneleri yükleyin.
+Python: Bilgisayarınızda Python yüklü değilse, python.org adresinden indirin. Kurulum sırasında "Add Python to PATH" kutucuğunu işaretlediğinizden emin olun.
 
-Ayarları Yapılandırın: config.json dosyasını açın ve içindeki TELEGRAM_TOKEN, TARGET_CHAT_ID gibi alanları kendi bilgilerinizle doldurun.
+Kütüphaneler: Komut İstemi'ni (cmd) açıp pip install "python-telegram-bot[job-queue]" mcstatus komutunu çalıştırın.
 
-Çalıştırın: minecraft_bot.py dosyasını python minecraft_bot.py komutuyla çalıştırın.
+2. Telegram Bot'unu Oluşturma
 
-Hepsi bu kadar! Botunuz artık sunucunuzu sizin için izlemeye hazır.
+Telegram'da @BotFather'ı bulun ve /newbot komutuyla yeni bir bot oluşturun.
+
+BotFather'ın size vereceği API Token'ını kopyalayın. Bu token'ı bir sonraki adımda kullanacağız.
+
+3. Dosyaları Hazırlama
+
+Bilgisayarınızda bot için bir klasör oluşturun.
+
+Size verilen config.json, messages.json ve minecraft_bot.py dosyalarını bu klasörün içine koyun.
+
+4. Grup ID'sini Alma (En Önemli Adım)
+
+Grup Oluşturun: Botun çalışacağı bir Telegram grubu oluşturun veya mevcut bir grubu kullanın.
+
+Botunuzu Gruba Ekleyin: Oluşturduğunuz botu (@kullaniciadi) bu gruba üye olarak ekleyin.
+
+Botu Yönetici Yapın: Grup ayarlarından botunuzu yönetici yapın. Bu, mesajları düzenleyip silebilmesi için gereklidir.
+
+ID Öğrenme: Grup ID'sini öğrenmek için, gruba geçici olarak @myidbot gibi bir ID botu ekleyin. Bot, gruba katıldığında sohbetin ID'sini (-100... ile başlayan bir sayı) mesaj olarak gönderecektir.
+
+ID'yi Kopyalayın: Bu ID'yi kopyalayın ve sonrasında ID botunu gruptan çıkarabilirsiniz.
+
+5. Ayarları Yapılandırma
+
+Klasördeki config.json dosyasını bir metin düzenleyici ile açın.
+
+TELEGRAM_TOKEN alanına BotFather'dan aldığınız token'ı yapıştırın.
+
+TARGET_CHAT_ID alanına bir önceki adımda öğrendiğiniz grup ID'sini yapıştırın.
+
+Dosyayı kaydedin.
+
+6. Botu Çalıştırma
+
+Komut İstemi'ni (cmd) açın ve cd komutuyla dosyaların olduğu klasöre gidin.
+
+python minecraft_bot.py komutunu yazıp Enter'a basın.
+
+Botunuz artık çalışmaya başlayacak ve 5 saniye içinde gruptaki paneli oluşturacaktır. Tebrikler!
