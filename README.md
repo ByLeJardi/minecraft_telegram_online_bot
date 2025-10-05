@@ -24,6 +24,8 @@ Sunucu tekrar açıldığında, önceki kapanma bildirimini siler ve 30 saniye s
 🔹 Kolay Yönetim: Tüm ayarlar (config.json) ve botun mesajları (messages.json) ayrı dosyalarda tutulduğu için, gelecekte bot üzerinde değişiklik yapmak son derece kolaydır.
 
 #Minecraft Sunucu Botu Kurulum Rehberi 
+
+
 Bu rehber, Minecraft sunucunuzun durumunu takip eden gelişmiş Telegram botunu, tüm özellikleriyle nasıl kuracağınızı ve çalıştıracağınızı en baştan sona kadar anlatır.
 
 Adım 1: Gerekli Programların Kurulumu
