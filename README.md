@@ -1,5 +1,5 @@
 # minecraft_telegram_online_bot
-🌟unucu Takip Botu 🌟
+🌟Sunucu Takip Botu 🌟
 Topluluğumuz için özel olarak geliştirilen bu Telegram botu, Minecraft sunucumuzun anlık durumunu kesintisiz olarak takip eder ve tüm bilgileri canlı olarak grubumuza yansıtır. Artık sunucunun durumunu merak etmenize gerek kalmayacak!
 
 Botumuz Neler Yapar?
