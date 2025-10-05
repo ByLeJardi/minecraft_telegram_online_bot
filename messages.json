@@ -1,0 +1,22 @@
+{
+    "status_online_header": "🌟 {server_name} 🌟",
+    "status_offline_header": "🚫 SUNUCU ÇEVRİMDIŞI 🚫",
+    "status_online_players": "👥 <b>Online Oyuncular:</b> {online}/{max}",
+    "status_daily_record": "📈 <b>Günlük Rekor:</b> {daily_max}",
+    "status_all_time_record": "🏆 <b>Tüm Zamanlar Rekoru:</b> {all_time_max}",
+    "status_last_update": "🔄 <b>Son Güncelleme:</b> {update_time}",
+    "status_last_check": "🔄 <b>Son Kontrol:</b> {update_time}",
+    "status_offline_message": "Sunucu kapalı veya şu anda yanıt vermiyor.",
+    "status_checking": "Sunucu durumu kontrol ediliyor...",
+    "log_shutdown_title": "🗓️ Son 5 Sunucu Kapanma Zamanı",
+    "log_startup_title": "🕒 Son 5 Sunucu Başlama Zamanı",
+    "log_no_records": "Kayıt bulunmuyor.",
+    "notification_server_up": "✅ Sunucu tekrar aktif!",
+    "notification_server_down": "🚨 Sunucu kapandı veya ulaşılamıyor!",
+    "command_start_greet": "Merhaba!",
+    "command_start_desc": "Bu bot, Minecraft sunucu durumunu belirtilen grupta otomatik olarak takip eder.",
+    "command_start_help": "<b>/durum</b> - Takip mesajlarını manuel olarak yeniden başlatır/günceller.\n<b>/durdur</b> - Takibi durdurur ve gönderilen mesajları silmeye çalışır.",
+    "command_status_reply": "İzleme mesajları manuel olarak silinip yeniden oluşturuluyor...",
+    "command_stop_reply_success": "Sunucu izleme durduruldu.",
+    "command_stop_reply_fail": "Aktif bir izleme görevi bulunmuyor."
+}
