@@ -23,7 +23,7 @@ Sunucu tekrar açıldığında, önceki kapanma bildirimini siler ve 30 saniye s
 
 🔹 Kolay Yönetim: Tüm ayarlar (config.json) ve botun mesajları (messages.json) ayrı dosyalarda tutulduğu için, gelecekte bot üzerinde değişiklik yapmak son derece kolaydır.
 
-Nasıl Kurulur? (Kısa Rehber)
+# Nasıl Kurulur? (Kısa Rehber)
 Botu çalıştırmak için aşağıdaki adımları izlemeniz yeterlidir:
 
 Python Yükleyin: Bilgisayarınızda Python'un son sürümünün kurulu olduğundan emin olun.
